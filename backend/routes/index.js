@@ -15,7 +15,7 @@ res.send(user);
 
 });
 
-//reading(Getting enteries)
+
 // Update route
 router.get("/update", async function(req, res) {
   const id = req.params.id;
