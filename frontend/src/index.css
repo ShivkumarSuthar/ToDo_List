@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "wes";
+  src: url("./assets/font/Wes/Wes\ Webfont.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "lemon_milk_m";
+  src: url("./assets/font/lemon_milk/LEMONMILK-Medium.otf");
+}
+@font-face {
+  font-family: "lemon_milk_B";
+  src: url("./assets/font/lemon_milk/LEMONMILK-Bold.otf");
+}
+@font-face {
+  font-family: "myron";
+  src: url("./assets/font/myron/Myron-Regular.otf");
+}
+@font-face {
+  font-family: "livia_medium";
+  src: url("./assets/font/livia_medium/Livia\ Medium.ttf");
 }
